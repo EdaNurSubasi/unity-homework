@@ -1,0 +1,4 @@
+repository "HOMEWORK@EdaNurSubasi@cloud"
+  path "/"
+    br "/main"
+    co "/main"
