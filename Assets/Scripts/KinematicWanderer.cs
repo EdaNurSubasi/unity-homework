@@ -67,7 +67,7 @@ public class KinematicWanderer : MonoBehaviour
 
         result.Velocity = new Vector3(character.transform.position.x + character.transform.position.x * maxSpeed, character.transform.position.y+character.transform.position.y * maxSpeed);
         //result.Velocity = maxSpeed * character.transform.rotation.;
-        result.Rotation = (Random.Range(-150.0f, 150.0f)- Random.Range(-150.0f, 150.0f)) * maxRotation *Time.deltaTime;
+        result.Rotation = (Random.Range(-150.0f, 150.0f)- Random.Range(-90.0f, 90.0f)) * maxRotation *Time.deltaTime;
 
         return result;
     }
