@@ -19,7 +19,7 @@ public class AddPoint : MonoBehaviour
     {
         count++;
 
-        if (count % 10 == 0)
+        if (count % 100 == 0)
         {
 
         Instantiate(markerPrefab, character.transform.position, Quaternion.identity);
